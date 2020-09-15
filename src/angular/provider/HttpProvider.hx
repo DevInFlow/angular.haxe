@@ -13,6 +13,9 @@ extern class HttpProvider {
 			put : String,
 			patch : String,
 		}
+
 	};
+
+	public var interceptors:Array<Dynamic>;
 
 }

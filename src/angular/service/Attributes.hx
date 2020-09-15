@@ -11,4 +11,7 @@ extern class Attributes {
 	public inline function get (field:String):Dynamic {
 		return Reflect.field(this, field);
 	}
+	public inline function set (field:String,value:Dynamic):Void {
+		Reflect.setField(this,field,value);
+	}
 }
