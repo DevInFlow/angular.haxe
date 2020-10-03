@@ -7,5 +7,9 @@
   "description": "Toolset for integration of angular.js in haxe js applications",
   "releasenote": "support anonymous structures and function types for injection",
   "version": "0.0.6",
-  "contributors": ["frabbit"]
+  "contributors": ["varadig"],
+  "dependencies": {
+    "hx3compat":"gh:https://github.com/HaxeFoundation/hx3compat.git"
+
+  }
 }

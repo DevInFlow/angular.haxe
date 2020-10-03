@@ -7,6 +7,7 @@ import haxe.Constraints.Function;
 import js.html.Document;
 import js.JQuery;
 
+
 typedef DirectiveFunctionVoid = Void->Dynamic;
 typedef DirectiveFunction = Function;
 typedef ConfigFunction = Function;
@@ -46,6 +47,6 @@ extern class Angular {
 	public static function equals(obj:Dynamic, obj2:Dynamic):Bool;
 
 	public static function isDefined(value:Dynamic):Bool;
-	// @:native("extend")
+
 	public static function extend(dst:Dynamic, src:Dynamic):Dynamic;
 }
